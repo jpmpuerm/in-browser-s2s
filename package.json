@@ -1,0 +1,20 @@
+{
+  "name": "in-browser-s2s",
+  "description": "In-browser speech-to-speech engine",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build && static-web-server -p 5174 -d dist/",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "eslint": "^10.3.0",
+    "prettier": "^3.8.3",
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.0.2",
+    "@ricky0123/vad-web": "^0.0.30"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "in-browser-tts-engine",
+  "type": "module",
+  "description": "An in-browser TTS engine powered by Pocket TTS (Kyutai Labs)",
+  "version": "0.0.1"
+}

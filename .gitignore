@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+public/stt/models
+public/stt/ort-wasm-simd-threaded.jsep.wasm
+public/tts/assets
+public/tts/ptts_wasm_bg.wasm
+public/vad/ort-wasm-simd-threaded.wasm
+public/vad/silero_vad_v5.onnx
